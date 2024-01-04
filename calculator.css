@@ -1,0 +1,100 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(223, 215, 215);
+   font-family: "Vollkron",serif;
+}
+
+h1 {
+   text-align: center; 
+   font-family: "Vollkron",serif; 
+   border: none;
+   margin-top: 10px; 
+   color: rgb(0, 30, 52);
+   
+}
+
+/* CSS to center calculator */ 
+.calculator { 
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   border-radius: 15px;
+   overflow: hidden;
+    
+ 
+} 
+
+/* CSS for screen and screenContent, calculation and result */ 
+ .screen {
+   height: 150px;
+   background: rgb(0, 30, 52);
+   margin: 20px 20px 20px 20px;
+   margin: auto;
+   
+   
+ } 
+
+ .screenDisplay {
+   text-align: end;
+   padding: 17px;
+   font-size: 30px;
+   user-select: none;
+    }
+
+ .calculation {
+   font-size: 12px;
+   color: white;
+   overflow: auto; 
+   padding-top: 2rem; /* 2rem = 32px */
+ }
+
+ .result {
+   font-size: 2.5rem;
+   padding-top: 1rem;
+   color: rgb(255, 255, 255);
+     
+ }
+
+ /* CSS For table tr td and button keys, operator keys, math keys */
+ table {
+   background-color: rgb(0, 30, 52);
+   border-collapse: collapse;
+ }
+
+ tr, td {
+   border: 0.2px solid black;
+   border-collapse: collapse;
+ }
+
+ .btn, .btnOperator, .btnMath {
+   width: 50px;
+   height: 50px;
+   font-size: 17px;
+   cursor: pointer;
+   border: none;
+   background: rgb(0, 43, 74);
+   color: rgb(255, 255, 255);
+   outline: none;
+ }
+
+ .btnOperator {
+   color: rgb(7, 151, 7);
+   font-family: "Roboto", sans-serif;
+ }
+
+ .btnMath {
+   color: rgb(6, 146, 228);
+   font-family: "Roboto", sans-serif;
+ }
+
+ input[type="button"]:hover {
+   background-color: rgb(255, 168, 0);
+   color: rgb(255, 255, 255);
+   transition: all 0.5s linear;
+ }
