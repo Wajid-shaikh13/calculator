@@ -1,4 +1,4 @@
-create a calculator using HTML, CSS & JavaScript
+create a calculator using HTML, CSS & JavaScript.
 in HTML used the google fonts, span, table and input element.
 in CSS create the class for calculator, display, calculation, result and table.
 in JavaScript used the EventListener, eval, substring and keydown method for keyboard.
